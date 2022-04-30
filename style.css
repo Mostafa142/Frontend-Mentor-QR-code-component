@@ -28,7 +28,7 @@ body {
   width: 350px;
   background-color: var(--White);
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin: 30px;
   display: flex;
@@ -38,12 +38,14 @@ body {
   flex-wrap: wrap;
 }
 .container img {
-  border-radius: 12px;
+  border-radius: 15px;
 }
-
+.container .content {
+  padding: 0.5rem;
+}
 .container .content h1 {
   text-align: center;
-  font-size: 25px;
+  font-size: 24px;
   color: var(--Dark-blue);
   padding: 1rem 0;
 }
@@ -51,7 +53,7 @@ body {
   font-size: 15px;
   color: var(--Grayish-blue);
   text-align: center;
-  padding: 0 0 1rem 0;
+  padding: 0 1rem 1.5rem 1rem;
 }
 
 @media (max-width: 375px) {
