@@ -41,7 +41,7 @@ body {
   border-radius: 15px;
 }
 .container .content {
-  padding: 0.5rem;
+  padding: 0 0.5rem;
 }
 .container .content h1 {
   text-align: center;
